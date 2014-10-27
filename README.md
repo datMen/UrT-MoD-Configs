@@ -1,4 +1,4 @@
-### Info -
+<!-- ### Info -
 
 ##### Weapons:
 
@@ -31,9 +31,10 @@
 | 21  | Laser Sight  |
 | 22  | Helmet  |
 
+ -->
 -
 
-### Fix List -
+### Fix List:
 
 ##### Cvars:
 * z3n_coloredname: Show colors also on the scoreboard and killed-by messages.
