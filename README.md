@@ -46,6 +46,7 @@
 ##### Other:
 * Fix curb stomp when NoFallDamage activated
 * Fix $location, $weapon... in chat
+* Fix ammo drops in maps (currently not working at deathrun, thats why we had to put ammo regen)
 
 -
 
