@@ -1,4 +1,5 @@
-<!-- ### Info -
+<!--
+### Info -
 
 ##### Weapons:
 
@@ -31,9 +32,9 @@
 | 21  | Laser Sight  |
 | 22  | Helmet  |
 
- -->
 -
 
+-->
 ### Fix List:
 
 ##### Cvars:
@@ -44,21 +45,22 @@
 
 ##### Other:
 * Fix curb stomp when NoFallDamage activated
+* Fix $location, $weapon... in chat
 
 -
 
 ### Whish List:
 * Add server-side Guns system: https://github.com/TheLouK/Urt-Source-Code/blob/master/guns42.c
 
-        check the SV_Check_Com_Printf & the added cvar "sv_Guns"
+        Check the SV_Check_Com_Printf & the added cvar "sv_Guns". This code was made for 4.2 but also, please take a look to the SV_Event_Kill_Guns cause i'm not 100% sure it will work fine with your mod :)
 
 * Team config (Free/Blue/Red):
     * RegenStamina: like the RegenHealth but for stamina :D (it could behave like the 4.1 mod if possible: it starts to regen when the player is not in the air)
-    * ForceWeapons & ForceItems: The player will spawn with these weapons. If you can, it would be great if we can specify the "force mode":
-    * Force settings:
-        * + symbol: Allow the player to set his weapons/items, the weapon/item set after the "+" will be ADDED to his "inventory" (just if the player doesn't have it).
-        * - symbol: Allow the player to set his weapons/items, the weapon/item set after the "-" will be REMOVED from his "inventory" (if the player have it).
-        * @ symbol: A reference to all weapons (your current "-").
+    * ForceWeapons & ForceItems: The player will spawn with these weapons. If you can, it would be great if we can add "ForceSettings":
+    * ForceSettings:
+        * <strong>+</strong> symbol: Allow the player to set his weapons/items, the weapon/item set after the "+" will be ADDED to his "inventory" (just if the player doesn't have it).
+        * <strong>-</strong> symbol: Allow the player to set his weapons/items, the weapon/item set after the "-" will be REMOVED from his "inventory" (if the player have it).
+        * <strong>@</strong> symbol: A reference to all weapons (your current "-").
 
                 Force Example:
 
