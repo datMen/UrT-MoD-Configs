@@ -52,6 +52,7 @@ UrT Mod Configurations for Z3NMOD by Z3nnY
 Check the SV_Check_Com_Printf & the added cvar "sv_Guns". This code was made for 4.2 but also, please take a look to the SV_Event_Kill_Guns cause i'm not 100% sure it will work fine with your mod :)
 ```
 * Hide "!pm " in chat: https://github.com/TheLouK/Urt-Source-Code/commit/88074d19603331be46943cc0542e024ea8483af8
+* Add g_swaproles "2": Swap teams each round
 
 -
 
